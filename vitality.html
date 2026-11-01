@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>VITALITY – HR Services & Solutions</title>
+<meta name="description" content="VITALITY – HR Services & Solutions. People-focused HR services and workforce solutions for growing organisations.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#07365C;--green:#3CC49A;--orange:#FFB642;--bg:#fff;--bg2:#F7F9FA;--bg3:#EEF1F4;--ink:#252D35;--mute:#66717D;--head:#07365C;--line:#DCE3E8;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0C1823;--bg2:#10202D;--bg3:#16293A;--ink:#DCE4EA;--mute:#9AA9B6;--head:#F2F6F9;--line:#25384A}}
+:root[data-theme="dark"]{--bg:#0C1823;--bg2:#10202D;--bg3:#16293A;--ink:#DCE4EA;--mute:#9AA9B6;--head:#F2F6F9;--line:#25384A}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 80px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 "DM Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:60}
+h1,h2,h3{font-family:Manrope,"DM Sans",system-ui,sans-serif;color:var(--head);line-height:1.12;letter-spacing:-.02em;margin:0 0 .6em;font-weight:800}
+h1{font-size:clamp(2.4rem,5.4vw,4.3rem)}h2{font-size:clamp(1.8rem,3.5vw,2.8rem)}h3{font-size:1.25rem;letter-spacing:-.01em}
+p{margin:0 0 1em;max-width:62ch}a{color:inherit}
+:focus-visible{outline:3px solid var(--orange);outline-offset:3px;border-radius:3px}
+.wrap{width:min(1180px,100% - 2.5rem);margin-inline:auto}
+.sec{padding:clamp(4rem,9vw,7.5rem) 0}.alt{background:var(--bg2)}.grey{background:var(--bg3)}
+.navy{background:var(--navy);color:#E4EDF4}.navy h1,.navy h2,.navy h3{color:#fff}
+.lede{font-size:1.2rem;color:var(--mute)}.navy .lede{color:#B9CCDB}
+/* header */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--bg);transition:box-shadow .2s,border-color .2s;border-bottom:1px solid transparent}
+header.s{border-color:var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:72px}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none;font:800 1.35rem Manrope,sans-serif;color:var(--head);letter-spacing:.02em}
+.brand small{display:block;font:500 .62rem "DM Sans",sans-serif;color:var(--mute);letter-spacing:.06em;margin-top:-2px}
+nav ul{display:flex;gap:2rem;list-style:none;margin:0;padding:0;align-items:center}
+nav a{text-decoration:none;font-weight:500;font-size:.98rem;padding:.3rem 0;border-bottom:2px solid transparent}
+nav a:hover{border-color:var(--green)}nav a[aria-current=page]{border-color:var(--orange)}
+.btn{display:inline-block;text-decoration:none;font:700 .98rem "DM Sans",sans-serif;padding:.85rem 1.5rem;border-radius:4px;border:2px solid transparent;cursor:pointer;transition:transform .15s,background .15s}
+.btn:hover{transform:translateY(-2px)}
+.b1{background:var(--orange);color:var(--navy)}.b2{border-color:currentColor;color:inherit}
+.bn{background:var(--head);color:var(--bg);padding:.6rem 1.2rem}nav a.bn{border-bottom:2px solid transparent}
+.menu{display:none;background:none;border:1px solid var(--line);border-radius:4px;padding:.55rem .8rem;color:var(--head);font:700 .9rem "DM Sans",sans-serif;cursor:pointer}
+/* hero */
+.hero{padding:clamp(3.5rem,8vw,6.5rem) 0 clamp(3.5rem,8vw,6rem)}
+.hg{display:grid;grid-template-columns:1.15fr .85fr;gap:3rem;align-items:center}
+.hero h1{max-width:13ch;animation:up .8s .1s both}.hero p,.hero .acts{animation:up .8s .3s both}
+.acts{display:flex;gap:1rem;flex-wrap:wrap;margin-top:2rem}
+.art{width:100%;max-width:440px;justify-self:end}
+.arc{stroke-dasharray:420;animation:draw 1.8s .3s ease-out both}
+@keyframes up{from{opacity:0;transform:translateY(14px)}}@keyframes draw{from{stroke-dashoffset:420}}
+/* intro */
+.split{display:grid;grid-template-columns:5fr 7fr;gap:clamp(2rem,6vw,6rem);align-items:start}
+.path{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:2.5rem;position:relative}
+.path::before{content:"";position:absolute;left:0;right:0;top:9px;border-top:2px solid var(--line)}
+.path div{position:relative;padding-top:2rem}.path div::before{content:"";position:absolute;top:0;left:0;width:20px;height:20px;border-radius:50%;background:var(--c)}
+.path b{display:block;font:800 1.05rem Manrope,sans-serif;color:var(--head)}.path span{font-size:.95rem;color:var(--mute);display:block;line-height:1.5}
+/* flags */
+.flag{display:inline-flex;gap:.5rem;align-items:center;font-size:.85rem;color:var(--mute);border:1px dashed var(--mute);padding:.25rem .7rem;border-radius:99px;margin-bottom:1.2rem}
+.flag::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--orange)}
+/* services */
+.sv{display:grid;grid-template-columns:4fr 8fr;gap:clamp(2rem,5vw,5rem)}.sv>div:first-child{position:sticky;top:110px;align-self:start}
+.rows{display:grid;grid-template-columns:1fr 1fr;column-gap:2.5rem}
+.row{border-top:1px solid var(--line);padding:1.5rem 0 1.8rem}.row.lead{grid-column:1/-1;padding:2rem 0 2.4rem}
+.row.lead h3{font-size:clamp(1.6rem,3vw,2.2rem);max-width:20ch}.row p{color:var(--mute);margin-bottom:.8rem}
+.row svg{display:block;margin-bottom:1rem}
+.more{font-weight:700;color:var(--head);text-decoration:underline;text-decoration-color:var(--green);text-decoration-thickness:2px;text-underline-offset:4px}
+.more:hover{text-decoration-color:var(--orange)}
+/* why */
+.why{border-top:1px solid var(--line);padding:1.6rem 0;display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:baseline}
+.why:nth-child(even){padding-left:clamp(0rem,10vw,9rem)}
+.why h3{font-size:clamp(1.4rem,2.6vw,2rem);margin:0}.why p{margin:0;color:var(--mute)}
+/* industries */
+.ind{display:flex;flex-wrap:wrap;gap:.4rem 2.2rem;margin:2rem 0}
+.ind a{font:800 clamp(1.5rem,3.6vw,2.7rem) Manrope,sans-serif;letter-spacing:-.02em;color:var(--head);text-decoration:none;opacity:.88;border-bottom:3px solid transparent}
+.ind a:hover{border-color:var(--green);opacity:1}
+.irow{display:grid;grid-template-columns:5fr 7fr;gap:2rem;padding:2rem 0;border-top:1px solid var(--line)}
+.irow h3{font-size:1.6rem;margin:0}.irow p{margin:0}
+/* cta */
+.cta{padding:clamp(4rem,8vw,6.5rem) 0;position:relative;overflow:hidden}
+.cta .wrap{display:grid;grid-template-columns:1.3fr auto;gap:2rem;align-items:center}
+.cta::after{content:"";position:absolute;left:0;bottom:0;width:38%;height:6px;background:var(--green)}
+.cta::before{content:"";position:absolute;left:38%;bottom:0;width:8%;height:6px;background:var(--orange)}
+/* about */
+.pg{padding:clamp(3.5rem,7vw,5.5rem) 0 clamp(2.5rem,5vw,4rem)}.pg h1{max-width:16ch;font-size:clamp(2.2rem,4.6vw,3.6rem)}
+.ph{border:1px dashed var(--mute);padding:1.5rem;border-radius:4px;color:var(--mute);background:var(--bg2)}
+.vm{display:grid;grid-template-columns:1fr 1fr;gap:0}.vm>div{padding:clamp(2rem,4vw,3.5rem)}.vm>div:last-child{margin-top:3rem}
+.vals{display:grid;grid-template-columns:1fr 1fr;gap:0 3rem}.val{border-top:1px solid var(--line);padding:1.3rem 0}.val:nth-child(even){margin-top:2rem}
+.val h3{margin-bottom:.3rem}.val p{margin:0;color:var(--mute)}
+.logo{display:grid;grid-template-columns:5fr 7fr;gap:clamp(2rem,6vw,5rem);align-items:center}
+.lg{display:grid;gap:1.4rem}.lg div{padding-left:1.2rem;border-left:5px solid var(--c)}.lg h3{margin-bottom:.2rem}.lg p{margin:0;color:var(--mute)}
+/* detail */
+.det{display:grid;grid-template-columns:4fr 8fr;gap:2rem 4rem;border-top:1px solid var(--line);padding:2.5rem 0}
+.det h2{font-size:clamp(1.5rem,2.6vw,2.1rem)}
+.det dl{margin:0;display:grid;gap:1rem}.det dt{font-weight:700;color:var(--head)}.det dd{margin:0;color:var(--mute)}
+/* contact */
+.cg{display:grid;grid-template-columns:4fr 7fr;gap:clamp(2rem,6vw,5rem);align-items:start}
+.ci p{margin-bottom:1.2rem}.ci b{display:block;color:var(--head)}
+form{display:grid;gap:1.2rem;grid-template-columns:1fr 1fr}.f{display:grid;gap:.35rem}.f.w{grid-column:1/-1}
+label{font-weight:700;font-size:.95rem;color:var(--head)}
+input,select,textarea{font:inherit;color:var(--ink);background:var(--bg);border:1.5px solid var(--mute);border-radius:4px;padding:.8rem .9rem;width:100%}
+textarea{min-height:140px;resize:vertical}input:focus,select:focus,textarea:focus{border-color:var(--green)}
+.er{color:#B3261E;font-size:.9rem;min-height:1.2em}input[aria-invalid=true],select[aria-invalid=true],textarea[aria-invalid=true]{border-color:#B3261E}
+@media (prefers-color-scheme:dark){.er{color:#FF8F86}}
+.ok,.fail{grid-column:1/-1;padding:1.2rem;border-radius:4px}.ok{background:var(--bg3);border-left:5px solid var(--green)}.fail{background:var(--bg3);border-left:5px solid #B3261E}
+.ok h3{margin-bottom:.3rem}
+/* footer */
+footer{background:var(--bg3);padding:3rem 0 2rem;font-size:.95rem}
+.fg{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}.fg ul{list-style:none;margin:0;padding:0;display:grid;gap:.4rem}.fg a{text-decoration:none}.fg a:hover{text-decoration:underline}
+.fine{margin-top:2rem;padding-top:1.2rem;border-top:1px solid var(--line);color:var(--mute);font-size:.85rem}
+@media (max-width:860px){
+.menu{display:block}nav ul{display:none;position:absolute;left:0;right:0;top:72px;background:var(--bg);flex-direction:column;align-items:flex-start;gap:1rem;padding:1.2rem 1.25rem 1.6rem;border-bottom:1px solid var(--line)}nav.open ul{display:flex}
+.hg,.split,.sv,.rows,.why,.irow,.cta .wrap,.vm,.vals,.logo,.det,.cg,form,.fg{grid-template-columns:1fr}
+.sv>div:first-child{position:static}.art{justify-self:start;max-width:320px;order:-1}.why:nth-child(even){padding-left:0}.vm>div:last-child{margin-top:0}.val:nth-child(even){margin-top:0}.path{grid-template-columns:1fr}.path::before{display:none}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header id="hd"><div class="wrap bar">
+<a class="brand" href="#home" aria-label="VITALITY home"><span id="lm"></span><span>VITALITY<small>HR Services &amp; Solutions</small></span></a>
+<nav aria-label="Main"><button class="menu" id="mb" aria-expanded="false" aria-controls="nl">Menu</button>
+<ul id="nl"></ul></nav></div></header>
+<main id="app" tabindex="-1"></main>
+<footer><div class="wrap"><div class="fg">
+<div><div class="brand" style="margin-bottom:.8rem"><span id="lf"></span><span>VITALITY</span></div><p style="color:var(--mute)">People-focused HR services and workforce solutions.</p></div>
+<ul id="fl" aria-label="Footer"></ul>
+<div><b style="color:var(--head)">Contact</b><p style="color:var(--mute)">Email, phone and address to be added.<br><a href="#contact" style="text-decoration:underline">Send us a message</a></p></div></div>
+<p class="fine">&copy; <span id="yr"></span> VITALITY – HR Services &amp; Solutions. Service, industry and values copy is proposed and awaiting company confirmation.</p></div></footer>
+
+<script>
+/* ===== EDIT HERE: all proposed content lives in these arrays (unconfirmed – flagged on the site) ===== */
+const SERVICES=[
+{id:"consulting",t:"HR Consulting & Advisory",d:"Practical guidance on HR structure, policy and people decisions.",p:"Growing teams often make people decisions without a clear framework.",h:"We review current practice, agree priorities with leadership and help put workable policies and structures in place.",b:"Clearer decisions, more consistent practice and a firmer base for growth."},
+{id:"recruitment",t:"Recruitment & Talent Acquisition",d:"Finding and hiring people who fit the role and the culture.",p:"Vacancies stay open too long, or hires do not stay.",h:"We define the role, shape the search, support screening and interviews, and guide the offer stage.",b:"A more structured hiring process and better-matched appointments."},
+{id:"operations",t:"HR Operations & Administration",d:"Reliable day-to-day HR administration.",p:"Admin pulls managers away from running the business.",h:"We help set up and maintain employee records, onboarding, contracts and HR processes.",b:"Less admin load and records that are accurate and easy to find."},
+{id:"payroll",t:"Payroll & Compliance Support",d:"Support with payroll inputs and employment compliance.",p:"Regulation and payroll deadlines are easy to get wrong.",h:"We help organise payroll inputs and review practices against the requirements that apply to you.",b:"Fewer errors and greater confidence in day-to-day compliance."},
+{id:"learning",t:"Learning & Development",d:"Training plans built around real skill needs.",p:"Training is ad hoc and hard to link to business goals.",h:"We identify skill gaps, plan learning pathways and support delivery and follow-up.",b:"Stronger capability and clearer career paths for employees."},
+{id:"engagement",t:"Employee Engagement",d:"Listening to employees and acting on what they say.",p:"Leaders lack insight into how people feel about work.",h:"We design surveys, feedback routines and engagement initiatives, then help turn findings into actions.",b:"Better communication and a more connected workplace."},
+{id:"performance",t:"Performance Management",d:"Fair, simple ways to set goals and review progress.",p:"Reviews feel like a formality, or are seen as unfair.",h:"We help build goal-setting and review frameworks and prepare managers to use them well.",b:"Clearer expectations and more useful conversations."},
+{id:"od",t:"Organisational Development",d:"Aligning structure, roles and ways of working with strategy.",p:"Structure has not kept pace with the organisation’s growth.",h:"We map roles and reporting lines, and support change plans with practical communication.",b:"Clearer accountability and smoother change."}];
+const INDS=[
+{t:"Manufacturing & Industrial",d:"Shift-based workforces, skills availability and workplace compliance."},
+{t:"Healthcare & Life Sciences",d:"Recruitment of specialist roles, staff retention and training records."},
+{t:"Technology & IT Services",d:"Competitive hiring, career frameworks and managing growth."},
+{t:"Retail & Hospitality",d:"High-volume hiring, onboarding and staff engagement."},
+{t:"Education & Training",d:"Staffing cycles, professional development and policy clarity."},
+{t:"Professional Services",d:"Talent development, performance frameworks and partner-level people decisions."}];
+const WHY=[["People-first approach","Decisions start with how they affect the people doing the work."],["Business-oriented HR strategies","HR plans tied to what your organisation needs to achieve."],["Practical, scalable solutions","Approaches that work today and can grow with your team."],["Commitment to continuous improvement","We review, learn and refine as your needs change."],["Meaningful workplace relationships","Trust between employees, managers and leadership."]];
+const VALUES=[["People First","Every recommendation considers its effect on employees."],["Integrity","Honest advice, handled with confidentiality."],["Growth","Support for individual careers and organisational progress."],["Collaboration","We work alongside your team, not around it."],["Excellence","Careful work, delivered to a consistent standard."],["Innovation","Open to better ways of solving familiar HR problems."]];
+const FORM_ENDPOINT=""; /* INTEGRATION POINT: set to your form API URL (e.g. Formspree, your backend, serverless email). Leave empty = demo mode (nothing is sent). */
+/* ===== helpers ===== */
+const $=s=>document.querySelector(s);
+const mark=(w)=>`<svg width="${w}" viewBox="660 115 275 280" role="img" aria-label="VITALITY logo mark"><g fill="#3CC49A" stroke="#3CC49A" stroke-width="10" stroke-linejoin="round"><path d="M790 150 728 270 795 255Z"/><path d="M866 242 800 264 804 362Z"/></g><circle cx="827" cy="216" r="25" fill="#3CC49A"/><circle cx="768" cy="296" r="25" fill="#3CC49A"/><g fill="none" stroke="#FFB642" stroke-width="14" stroke-linecap="round"><path d="M800 128A130 130 0 0 0 677 295"/><path d="M918 215A130 130 0 0 1 798 380"/></g><circle cx="677" cy="295" r="11" fill="#FFB642"/><circle cx="918" cy="215" r="11" fill="#FFB642"/></svg>`;
+const glyph=i=>[`<svg width="30" height="26" viewBox="0 0 30 26" aria-hidden="true"><path d="M15 2 27 24H3Z" fill="#3CC49A"/></svg>`,`<svg width="30" height="26" viewBox="0 0 30 26" aria-hidden="true"><path d="M3 24A13 13 0 0 1 27 4" fill="none" stroke="#FFB642" stroke-width="4" stroke-linecap="round"/></svg>`,`<svg width="30" height="26" viewBox="0 0 30 26" aria-hidden="true"><circle cx="9" cy="16" r="7" fill="#3CC49A"/><circle cx="21" cy="9" r="5" fill="#3CC49A" opacity=".55"/></svg>`][i%3];
+const flag=t=>`<span class="flag">${t}</span>`;
+const PAGES=[["home","Home"],["about","About Us"],["services","Services"],["industries","Industries"],["contact","Contact"]];
+const learn=(id)=>`<a class="more" href="#services" data-to="svc-${id}">Learn more</a>`;
+/* ===== views ===== */
+const V={
+home:()=>`
+<section class="hero navy"><div class="wrap hg"><div>
+<h1>People are the foundation. Growth is the destination.</h1>
+<p class="lede">Building stronger organisations through people-focused HR services, strategic workforce solutions, and meaningful employee experiences.</p>
+<div class="acts"><a class="btn b1" href="#services">Explore Our Services</a><a class="btn b2" href="#contact">Let’s Talk</a></div></div>
+<svg class="art" viewBox="0 0 400 420" role="img" aria-label="Rising triangles with two people-like dots, encircled by an orange arc">
+<g><path d="M20 380 60 300 100 380Z" fill="#fff" opacity=".12"/><path d="M110 380 150 240 190 380Z" fill="#fff" opacity=".2"/><path d="M200 380 240 170 280 380Z" fill="#3CC49A"/><path d="M290 380 330 90 370 380Z" fill="#3CC49A"/></g>
+<circle cx="240" cy="138" r="15" fill="#fff"/><circle cx="330" cy="58" r="15" fill="#FFB642"/>
+<path class="arc" d="M26 190A200 200 0 0 1 270 30" fill="none" stroke="#FFB642" stroke-width="8" stroke-linecap="round"/><circle cx="26" cy="190" r="8" fill="#FFB642"/>
+<path d="M0 380H400" stroke="#fff" opacity=".25"/></svg></div></section>
+<section class="sec"><div class="wrap split"><div><h2>People. Potential. Progress.</h2></div><div>
+<p class="lede">At VITALITY, we believe that successful organisations are built around empowered people. We focus on bringing people, processes, and organisational goals together to create stronger and more productive workplaces.</p>
+<div class="path"><div style="--c:#3CC49A"><b>People</b><span>Every engagement starts with understanding who does the work.</span></div><div style="--c:#FFB642"><b>Potential</b><span>Then we look at what they could do with the right support.</span></div><div style="--c:#07365C"><b>Progress</b><span>Finally we help the organisation move forward as one.</span></div></div></div></div></section>
+<section class="sec alt"><div class="wrap sv"><div><h2>HR solutions that move organisations forward.</h2>${flag("Proposed services – to be confirmed")}<p><a class="more" href="#services">See all services</a></p></div>
+<div class="rows">${SERVICES.map((s,i)=>`<article class="row${i==0?" lead":""}">${glyph(i)}<h3>${s.t}</h3><p>${s.d}</p>${learn(s.id)}</article>`).join("")}</div></div></section>
+<section class="sec"><div class="wrap"><h2 style="max-width:18ch">More than HR. A partner in progress.</h2>${flag("Proposed differentiators – to be confirmed")}
+<div style="margin-top:2rem">${WHY.map(w=>`<div class="why"><h3>${w[0]}</h3><p>${w[1]}</p></div>`).join("")}</div></div></section>
+<section class="sec grey"><div class="wrap"><h2>Industries we serve</h2>${flag("Placeholder industries – to be confirmed")}
+<div class="ind">${INDS.map(i=>`<a href="#industries">${i.t}</a>`).join("")}</div></div></section>
+${cta()}`,
+about:()=>`
+<section class="pg"><div class="wrap"><h1>An HR partner built around people and progress.</h1>
+<p class="lede">VITALITY – HR Services &amp; Solutions helps organisations bring people, processes and goals into line, so that workplaces are stronger and more productive.</p></div></section>
+<section class="sec alt"><div class="wrap split"><div><h2>Our story</h2>${flag("Placeholder – to be confirmed")}</div><div class="ph">Add VITALITY’s founding story here: when and why it began, who is behind it, and what it has learned. This text is a placeholder and is not a statement of company history.</div></div></section>
+<section class="sec"><div class="wrap vm"><div style="background:var(--bg3)"><h2>Our vision</h2>${flag("Proposed wording")}<p>Workplaces where people are valued, developed and trusted, and where that strengthens the organisation.</p></div>
+<div class="navy"><h2>Our mission</h2>${flag("Proposed wording")}<p>To give organisations practical, people-focused HR services that support their goals and the people who deliver them.</p></div></div></section>
+<section class="sec alt"><div class="wrap"><h2>Our core values</h2>${flag("Proposed values – to be confirmed")}
+<div class="vals" style="margin-top:2rem">${VALUES.map(v=>`<div class="val"><h3>${v[0]}</h3><p>${v[1]}</p></div>`).join("")}</div></div></section>
+<section class="sec"><div class="wrap logo"><div style="max-width:300px">${mark(300)}</div><div><h2>What our logo says about us</h2>
+<div class="lg"><div style="--c:#3CC49A"><h3>Growth</h3><p>The upward-pointing geometric shapes stand for continuous improvement, career development and professional success.</p></div>
+<div style="--c:#FFB642"><h3>Energy</h3><p>The orange curves represent motivation, movement and progress.</p></div>
+<div style="--c:#07365C"><h3>Human connection</h3><p>The green dots and human-inspired forms stand for people, teamwork and engagement.</p></div></div></div></div></section>
+${cta()}`,
+services:()=>`
+<section class="pg"><div class="wrap"><h1>Services built around how organisations actually work.</h1><p class="lede">Each service is described by the problem it addresses, how we approach it and what it can help with.</p>${flag("Proposed services – to be confirmed")}</div></section>
+<section class="sec" style="padding-top:1rem"><div class="wrap">${SERVICES.map((s,i)=>`<article class="det" id="svc-${s.id}"><div>${glyph(i)}<h2 style="margin-top:.8rem">${s.t}</h2></div><dl><div><dt>The challenge</dt><dd>${s.p}</dd></div><div><dt>How we help</dt><dd>${s.h}</dd></div><div><dt>Potential benefit</dt><dd>${s.b}</dd></div></dl></article>`).join("")}</div></section>
+${cta()}`,
+industries:()=>`
+<section class="pg"><div class="wrap"><h1>Sectors where good HR makes a difference.</h1><p class="lede">The sectors below show where we intend to work. They are not a list of past clients or claimed areas of expertise.</p>${flag("Placeholder industries – to be confirmed")}</div></section>
+<section class="sec" style="padding-top:1rem"><div class="wrap">${INDS.map(i=>`<div class="irow"><h3>${i.t}</h3><p class="lede">Typical HR focus: ${i.d.charAt(0).toLowerCase()+i.d.slice(1)}</p></div>`).join("")}</div></section>
+${cta()}`,
+contact:()=>`
+<section class="pg"><div class="wrap"><h1>Let’s start a conversation.</h1><p class="lede">Tell us a little about your organisation and what you’d like to improve. We’ll read every message.</p></div></section>
+<section class="sec" style="padding-top:1rem"><div class="wrap cg"><div class="ci">${flag("Details to be added")}
+<p><b>Business email</b>[email placeholder]</p><p><b>Phone</b>[phone placeholder]</p><p><b>Office address</b>[address placeholder]</p></div>
+<form id="cf" novalidate aria-label="Contact form">
+<div class="f"><label for="n">Full name *</label><input id="n" name="name" autocomplete="name" required aria-describedby="e-n"><span class="er" id="e-n"></span></div>
+<div class="f"><label for="c">Company name</label><input id="c" name="company" autocomplete="organization"><span class="er"></span></div>
+<div class="f"><label for="m">Email address *</label><input id="m" name="email" type="email" autocomplete="email" required aria-describedby="e-m"><span class="er" id="e-m"></span></div>
+<div class="f"><label for="p">Phone number</label><input id="p" name="phone" type="tel" autocomplete="tel" aria-describedby="e-p"><span class="er" id="e-p"></span></div>
+<div class="f w"><label for="s">Service of interest *</label><select id="s" name="service" required aria-describedby="e-s"><option value="">Select a service</option>${SERVICES.map(s=>`<option>${s.t}</option>`).join("")}<option>Not sure yet</option></select><span class="er" id="e-s"></span></div>
+<div class="f w"><label for="g">Message *</label><textarea id="g" name="message" required aria-describedby="e-g"></textarea><span class="er" id="e-g"></span></div>
+<div class="f w"><button class="btn bn" type="submit" id="sb" style="justify-self:start;padding:.9rem 1.8rem">Send message</button></div>
+<div class="f w" id="res" role="status" aria-live="polite"></div></form></div></section>`
+};
+function cta(){return `<section class="cta navy"><div class="wrap"><div><h2>Let’s build a better workplace, together.</h2><p class="lede">Whether you’re looking to strengthen your HR processes, develop your workforce, or create a more engaging workplace, let’s start a conversation.</p></div><a class="btn b1" href="#contact">Get in Touch</a></div></section>`}
+/* ===== form ===== */
+async function submitForm(d){ /* INTEGRATION POINT: POST d (JSON) to FORM_ENDPOINT */
+ if(!FORM_ENDPOINT){await new Promise(r=>setTimeout(r,500));console.info("Demo mode – not sent:",d);return}
+ const r=await fetch(FORM_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify(d)});if(!r.ok)throw new Error(r.status)}
+function bindForm(){
+ const f=$("#cf");if(!f)return;
+ const rules={n:v=>v.trim()?"":"Enter your full name.",m:v=>!v.trim()?"Enter your email address.":/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)?"":"Enter a valid email address, like name@company.com.",p:v=>!v.trim()||/^[+()\d][\d\s().-]{6,}$/.test(v)?"":"Enter a valid phone number, or leave it blank.",s:v=>v?"":"Choose a service, or select “Not sure yet”.",g:v=>v.trim().length>=10?"":"Write a message of at least 10 characters."};
+ const chk=k=>{const el=$("#"+k),msg=rules[k](el.value);$("#e-"+k).textContent=msg;el.setAttribute("aria-invalid",!!msg);return !msg};
+ Object.keys(rules).forEach(k=>$("#"+k).addEventListener("blur",()=>chk(k)));
+ f.addEventListener("submit",async e=>{e.preventDefault();const bad=Object.keys(rules).filter(k=>!chk(k));
+  if(bad.length){$("#"+bad[0]).focus();return}
+  const b=$("#sb"),r=$("#res");b.disabled=true;b.textContent="Sending…";r.innerHTML="";
+  try{await submitForm(Object.fromEntries(new FormData(f)));f.reset();r.innerHTML=`<div class="ok"><h3>Message sent</h3>Thank you. We’ll reply to the email address you provided.</div>`}
+  catch(_){r.innerHTML=`<div class="fail"><h3>Message not sent</h3>Something went wrong on our side. Please try again in a moment.</div>`}
+  b.disabled=false;b.textContent="Send message"})}
+/* ===== router ===== */
+const TITLES={home:"VITALITY – HR Services & Solutions",about:"About Us | VITALITY",services:"Services | VITALITY",industries:"Industries | VITALITY",contact:"Contact | VITALITY"};
+let pending=null;
+function route(){const k=(location.hash.slice(1)||"home");const page=V[k]?k:"home";
+ $("#app").innerHTML=V[page]();document.title=TITLES[page];
+ document.querySelectorAll("nav a,#fl a").forEach(a=>a.getAttribute("href")==="#"+page?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current"));
+ $("#nl").parentElement.classList.remove("open");$("#mb").setAttribute("aria-expanded","false");
+ bindForm();
+ if(pending){const t=document.getElementById(pending);pending=null;if(t){t.scrollIntoView();return}}
+ window.scrollTo(0,0);$("#app").focus({preventScroll:true})}
+document.addEventListener("click",e=>{const a=e.target.closest("a[data-to]");if(!a)return;
+ pending=a.dataset.to;if(location.hash==="#services"){e.preventDefault();document.getElementById(pending)?.scrollIntoView();pending=null}});
+$("#lm").innerHTML=mark(38);$("#lf").innerHTML=mark(30);$("#yr").textContent=new Date().getFullYear();
+$("#nl").innerHTML=PAGES.map(p=>`<li><a href="#${p[0]}">${p[1]}</a></li>`).join("")+`<li><a class="bn btn" href="#contact">Let’s Talk</a></li>`;
+$("#fl").innerHTML=PAGES.map(p=>`<li><a href="#${p[0]}">${p[1]}</a></li>`).join("");
+$("#mb").addEventListener("click",()=>{const n=$("#nl").parentElement,o=n.classList.toggle("open");$("#mb").setAttribute("aria-expanded",o)});
+addEventListener("scroll",()=>$("#hd").classList.toggle("s",scrollY>8),{passive:true});
+addEventListener("hashchange",route);route();
+</script>
+</body>
+</html>
